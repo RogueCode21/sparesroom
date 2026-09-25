@@ -45,7 +45,7 @@ sparesroom/
 Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/RogueCode21/sparesroom 
 cd sparesroom
 
 ```
