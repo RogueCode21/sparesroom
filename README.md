@@ -42,6 +42,9 @@ sparesroom/
 
 ## Getting Started
 
+Requires Python 3.9+
+(optional) Create a virtual environment: `python -m venv venv` then activate it.
+
 Clone the repository:
 
 ```bash
