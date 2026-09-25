@@ -57,6 +57,8 @@ pip install -r requirements.txt
 
 ```
 
+On Windows you can also just double-click run.bat to launch the GUI
+
 Run the CLI:
 
 ```bash
@@ -77,6 +79,11 @@ Run the tests:
 python -m pytest tests/ -v
 
 ```
+
+## Future Improvements
+- [ ] List/search view for all stored parts
+- [ ] Prevent quantity from going negative
+- [ ] Low-stock alerts based on reorder point
 
 ## Design Notes
 
