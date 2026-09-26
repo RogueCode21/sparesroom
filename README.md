@@ -6,9 +6,9 @@ A spares inventory tracker built in Python and SQLite, with both a CLI and a des
 
 ## Why I built this
 
-During an engineering internship, I built a VBA/Excel tool to manage spares inventory on a manufacturing shop floor. Having worked extensively on finishing lines, I saw firsthand the need to track hundreds of parts across categories like Mechanical, Electrical, Pneumatics, Tooling, and Fasteners in an environment that previously had no digital system.
+During an engineering internship, I built a VBA/Excel tool to manage spares inventory on a manufacturing shop floor. Having worked extensively on finishing lines, I saw firsthand the need to track hundreds of parts across categories like Mechanical, Electrical, Pneumatics, Tooling, and Fasteners, on top of an existing spares-tracking process.
 
-Started in August 2026, this project is an independent rebuild of that idea from scratch in Python, built to be a cleaner and more portable version of the original concept.
+Starting in August 2026, this project is an independent rebuild of that idea from scratch in Python, designed to be a cleaner, more portable version of the original concept.
 
 ## Features
 
@@ -43,7 +43,7 @@ sparesroom/
 ## Getting Started
 
 Requires Python 3.9+
-(optional) Create a virtual environment: `python -m venv venv` then activate it.
+(optional) Create a virtual environment: `python -m venv venv`, then activate it.
 
 Clone the repository:
 
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ```
 
-On Windows you can also just double-click run.bat to launch the GUI
+On Windows, you can also just double-click run.bat to launch the GUI
 
 Run the CLI:
 
@@ -91,5 +91,5 @@ python -m pytest tests/ -v
 ## Design Notes
 
 * Both `database.py` and `inventory.py` contain all the data logic. Because `cli.py` and `gui.py` are thin front ends that just call these functions, you can add new interfaces (like a web version) without touching the underlying logic.
-* All SQL queries use parameterized placeholders (`?`) instead of string formatting to avoid SQL injection.
+* All SQL queries use parameterised placeholders (`?`) instead of string formatting to avoid SQL injection.
 * The database file is excluded from version control. By checking the `.gitignore` rules, you will see that cloning the repository starts you with a fresh, empty database.
