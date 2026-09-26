@@ -6,7 +6,7 @@ A spares inventory tracker built in Python and SQLite, with both a CLI and a des
 
 ## Why I built this
 
-During an engineering internship, I built a VBA/Excel tool to manage spares inventory on a manufacturing shop floor. Having worked extensively on finishing lines, I saw firsthand the need to track hundreds of parts across categories like Mechanical, Electrical, Pneumatics, Tooling, and Fasteners, on top of an existing spares-tracking process.
+During an engineering internship, I built a VBA/Excel tool to automate a manual inventory tracking process on a manufacturing shop floor — replacing manual purchase order creation and emailing with an automated workflow, across categories like Mechanical, Electrical, Pneumatics, Tooling, and Fasteners.
 
 Starting in August 2026, this project is an independent rebuild of that idea from scratch in Python, designed to be a cleaner, more portable version of the original concept.
 
